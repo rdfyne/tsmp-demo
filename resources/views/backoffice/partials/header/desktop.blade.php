@@ -8,7 +8,7 @@
 			<div class="d-none d-lg-flex align-items-center mr-3">
 				<!--begin::Logo-->
 				<a href="{{ route('front.category.index') }}" class="mr-20">
-					<img alt="Logo" src="{{ asset('front/img/web-logo.png') }}" class="max-h-35px" />
+					<img alt="Logo" src="{{ asset('front/img/web-logo-light.png') }}" class="max-h-35px" />
 				</a>
 				<!--end::Logo-->
 				<!--begin::Tab Navs(for desktop mode)-->

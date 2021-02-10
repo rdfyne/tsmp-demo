@@ -73,7 +73,7 @@
                             Let us help you take the leap at your convenient time and any team size.
                         </p>
 
-                        <a class="btn btn-main-alt-2" href="/courses/in-housetraining">Request Training</a>
+                        <a class="btn btn-main-alt-2" href="/tsmp-demo/public/in-housetraining">Request Training</a>
 
                     </div>
                 </div>
