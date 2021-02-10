@@ -1,0 +1,74 @@
+[13-Jan-2021 09:59:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jan-2021 03:59:05 America/Chicago] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[13-Jan-2021 09:59:06 UTC] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php:11
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include()
+#1 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): spl_autoload_call('Illuminate\\Supp...')
+#4 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include('/home2/perkgafr...')
+#5 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#7 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 09:59:06 UTC] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php:11
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include()
+#1 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): spl_autoload_call('Illuminate\\Supp...')
+#4 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include('/home2/perkgafr...')
+#5 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#7 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 10:00:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jan-2021 10:00:00 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 10:00:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(961): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/CliDumper.php(570): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(810): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Cloner/Data.php(401 in /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Jan-2021 10:08:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jan-2021 10:08:19 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 10:08:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(961): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/CliDumper.php(570): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(810): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Cloner/Data.php(401 in /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Jan-2021 04:13:40 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.1.24. in /home2/perkgafr/public_html/courses/vendor/composer/platform_check.php on line 24
+[13-Jan-2021 04:18:26 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.1.24. in /home2/perkgafr/public_html/courses/vendor/composer/platform_check.php on line 24
+[13-Jan-2021 10:21:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jan-2021 04:21:24 America/Chicago] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[13-Jan-2021 10:21:25 UTC] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php:11
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include()
+#1 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): spl_autoload_call('Illuminate\\Supp...')
+#4 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include('/home2/perkgafr...')
+#5 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#7 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 10:21:25 UTC] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php:11
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include()
+#1 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): spl_autoload_call('Illuminate\\Supp...')
+#4 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(444): include('/home2/perkgafr...')
+#5 /home2/perkgafr/public_html/courses/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home2/perkgafr...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#7 /home2/perkgafr/public_html/courses/vendor/laravel/framework/src in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 10:22:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jan-2021 10:22:08 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home2/perkgafr/public_html/courses/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[13-Jan-2021 10:22:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(961): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/CliDumper.php(570): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(810): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Cloner/Data.php(401 in /home2/perkgafr/public_html/courses/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Jan-2021 04:24:56 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.1.24. in /home2/perkgafr/public_html/courses/vendor/composer/platform_check.php on line 24
